@@ -11,7 +11,7 @@ class Pizza {
          return this;    
     }
 
-    honear() {
+    hornear() {
         console.log("la pizza esta en el honro..");
         return this;
     }
@@ -24,22 +24,22 @@ class Pizza {
 
 const pizzaHawaiana = new Pizza("delgada" , "mediana" , ["jamon" , "piña" , "queso"]);
 console.log(pizzaHawaiana.preparar());
-console.log(pizzaHawaiana.honear());
+console.log(pizzaHawaiana.hornear());
 console.log(pizzaHawaiana.empacar());
 
 const pizzapeperoni = new Pizza("doble masa" , "Grande" , ["jamon , carne , chorizo , longaniza  "]);
-console.log(pizzapeperoni.preparar().honear().empacar());
+console.log(pizzapeperoni.preparar().hornear().empacar());
 
 class combos extends Pizza {
-    constructor(combo , cantidad , tamano , masa , ingrediente, bebida, postre)  {
+    constructor(combo , cantidad , tamano , masa , ingrediente, bebidas, postres)  {
         super(masa, tamano, ingrediente);
         this.combo = combo
-        this.cantidad =  cantidad
+        this.cantidad = cantidad
         this.bebidas = bebidas
         this.postres = postres
-    }
+    };
 
-    legircombo() {
+    elegircombo() {
         this.preparar();
         this.hornear();
         this.empacar();
@@ -52,11 +52,11 @@ class combos extends Pizza {
         return this;    
    
            
-    }
+    };
 
 
-}
+};
 
 
-const combofamiliar = new Combos("Familiar " , 4 , "Grande", "Delgada", ["jamon", "piña", "queso"], "refresco", "helado");
+const combofamiliar = new combos("Familiar " , 4 , "Grande", "Delgada", ["jamon", "piña", "queso"], "refresco", "helado");
 console.log(combofamiliar.elegircombo());
