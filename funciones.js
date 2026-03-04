@@ -33,5 +33,13 @@ function palabram(a) {
 console.log(palabram("hola"), ("mundo"));
 
 
+function Multiplicar(a) {
+    return a * a;
+}
+
+function SumaDeLaMultiplicacion(num1, num2) {
+    return Multiplicar(num1) + Multiplicar(num2);
+};
+console.log(SumaDeLaMultiplicacion(3,4));
 
 
