@@ -1,0 +1,86 @@
+{
+  "viaje": [
+    {
+      "A1": "Afton Municipal Airport",
+      "camino": "US-WY",
+      "vida": "Afton",
+      "descricion": "Hólmavík Airport",
+      "codigo": "AFO",
+      "timepo": "17:15",
+      "id": "bdfc"
+    },
+    {
+      "A1": "9 de Maio - Teixeira de Freitas Airport",
+      "camino": "BR-BA",
+      "vida": "Teixeira De Freitas",
+      "descricion": "Currais Novos Airport",
+      "codigo": "TXF",
+      "timepo": "08:00",
+      "id": "9b3e"
+    },
+    {
+      "A1": "Tacheng Airport",
+      "camino": "CN-65",
+      "vida": "Tacheng",
+      "descricion": "Hood Army Air Field",
+      "codigo": "TCG",
+      "timepo": "09:00",
+      "id": "45c5"
+    },
+    {
+      "A1": "Akita Airport",
+      "camino": "JP-05",
+      "vida": "Akita",
+      "descricion": "Bathurst Island Airport",
+      "codigo": "AXT",
+      "timepo": "08:00",
+      "id": "83ce"
+    },
+    {
+      "A1": "Bremerton National Airport",
+      "camino": "US-WA",
+      "vida": "Bremerton",
+      "descricion": "Dean River Airport",
+      "codigo": "PWT",
+      "timepo": "18:15",
+      "id": "9eda"
+    },
+    {
+      "A1": "Peter O Knight Airport",
+      "camino": "US-FL",
+      "vida": "Tampa",
+      "descricion": "Antonio Maceo International Airport",
+      "codigo": "TPF",
+      "timepo": "12:00",
+      "id": "3610"
+    },
+    {
+      "A1": "Haycock Airport",
+      "camino": "US-AK",
+      "vida": "Haycock",
+      "descricion": "Kerry Airport",
+      "codigo": "HAY",
+      "timepo": "14:30",
+      "id": "71f2"
+    },
+    {
+      "id": "c81d",
+      "A1": "vinland",
+      "camino": "DK-83",
+      "vida": "paz",
+      "descricion": "Copernicus Wrocław Airport",
+      "codigo": "ODE",
+      "timepo": "11:30"
+    },
+    {
+      "id": "bdfc",
+      "A1": "Afton Municipal Airport",
+      "camino": "reflexivo",
+      "vida": "Afton",
+      "descricion": "Hólmavík Airport",
+      "codigo": "AFO",
+      "timepo": "2semanas"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
